@@ -15,7 +15,7 @@
 </template>
 <script>
 //import { useStore } from "vuex";
-import { useTaskStore } from '../../store/index';
+import { useTaskStore } from '../../store/tasks';
 import { ref } from "vue";
 export default{
     name: 'FilterTasks',
