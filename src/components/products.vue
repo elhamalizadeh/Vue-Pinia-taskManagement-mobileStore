@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container mb-5">
     <h1>products</h1>
     <div class="row align-items-center">
     <div v-for= "product in ProductList" :key = product.id class="col-md-3 me-3 mt-3"> 
